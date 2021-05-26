@@ -31,13 +31,10 @@ export default class EventClass extends Component {
       <div>
         <button onClick={this.showMessage}>Click Message</button>
         <button onClick={() => this.showFullName("Dan")}>Click Name</button>
-        <button onClick={this.showFullName.bind(null, "Dan")}>
-          Click Name 2
-        </button>
-
         <input onChange={this.handleChange} />
         <input onChange={(event) => this.handleChange(event)} />
       </div>
+      
     );
   }
 }

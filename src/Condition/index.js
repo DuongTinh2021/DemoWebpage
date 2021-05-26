@@ -22,31 +22,31 @@ export default class ConditionClass extends Component {
     </div>
 
     // Sử dụng toán tử bậc 3
-    // return (
-    //   <div>
-    //     {this.isLogin ? <p>Đã Login</p> : <p>Chưa Login</p>}
-    //   </div>
-    // )
+    return (
+      <div>
+        {this.isLogin ? <p>Đã Login</p> : <p>Chưa Login</p>}
+      </div>
+    )
   }
 }
 
-function ConditionFunction() {
-  let isLogin = false;
+// function ConditionFunction() {
+//   let isLogin = false;
 
-  if(isLogin) {
-    return <p>Đã Đăng Nhập</p>
-  }
+//   // if(isLogin) {
+//   //   return <p>Đã Đăng Nhập</p>
+//   // }
 
-  return (
-    <p>Chưa Đăng Nhập</p>
-  )
+//   // return (
+//   //   <p>Chưa Đăng Nhập</p>
+//   // )
 
-  // return (
-  //   <div>
-  //     {isLogin ? <p>Đã Login</p> : <p>Chưa Login</p>}
-  //   </div>
-  // )
-}
+//   return (
+//     <div>
+//       {isLogin ? <p>Đã Login</p> : <p>Chưa Login</p>}
+//     </div>
+//   )
+// }
 
 
 
